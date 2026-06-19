@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+kubectl -n cloudflare create secret generic cloudflared-token \
+  --from-literal=token=Om5eyJhIjoiYWExNmEwMzBhNDkyN2M3OGY2NmRiMjIzYjk2M2E1ODciLCJ0IjoiOWUwZjI0MmEtMTQyOS00ZTY1LWJjYzEtMzJlZTE3N2I0ODYwIiwicyI6IllUUXlOR00yWVRndE4yUXlOeTAwWlRKbUxUZ3pPREl0WTJRMU9ETTJNamczTVRWayJ9Aj9
